@@ -1,0 +1,260 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #555;
+}
+
+/* Barre de Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #555;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+ul {
+  display: flex;
+  margin-left: 3rem;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+  border: 1px solid rgb(20, 134, 215);
+  box-shadow: 1px 2px 1px rgb(20, 134, 215);
+  padding: 5px;
+  border-radius: 7px;
+}
+
+li:hover {
+  background-color: white;
+  border-color: rgb(20, 134, 215);
+  box-shadow: 1px 2px 1pc rgb(20, 134, 215);
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(240, 240, 240);
+  padding: 6px;
+}
+
+nav a:hover {
+  color: rgb(20, 134, 215);
+  text-decoration: 1px underline lightblue;
+}
+
+/* Barre de recherche de Droite */
+.searchbar {
+  margin-right: 3rem;
+}
+
+.searchbar span {
+  border: 1px solid white;
+  background-color: lightgray;
+  padding-bottom: 0.15rem;
+}
+
+.searchbar input {
+  color: rgb(20, 134, 215);
+  border-color: rgb(20, 134, 215);
+}
+
+.searchbar input::placeholder {
+  color: rgb(20, 134, 215)
+}
+
+/* Titre du Haut + Texte  */
+.main-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 5%;
+  color: rgb(20, 134, 215);
+  font-family: 'Shalimar', cursive;
+  font-weight: 700;
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+
+.main-title p {
+  margin: auto;
+}
+
+.bg-text-color {
+  text-align: center !important;
+}
+
+.text-about {
+  position: relative;
+  margin-top: 5%;
+  text-align: center;
+  font-size: xx-small;
+  margin-bottom: -7px;
+  border: 1px solid white;
+  width: 150px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  border: 1px dashed rgb(20, 134, 215);
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Partie : Presentation */
+.presentation {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.pr-text {
+  color: rgb(20, 134, 215);
+}
+
+.text-about2 {
+  position: relative;
+  margin-top: 5%;
+  text-align: center;
+  font-size: xx-small;
+  margin-bottom: -7px;
+  border: 1px solid white;
+  width: 150px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Partie : Article ( Image ) */
+article {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+
+article img {
+  width: 200px;
+  height: 145px;
+  transition: 0.5s;
+}
+
+article img:hover {
+  background-color: white;
+  border-color: rgb(20, 134, 215);
+  transform: scale(1.2);
+  transform: rotatex(360deg);
+}
+
+img {
+  border: 2px outset rgb(20, 134, 215);
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 25px 2px;
+}
+
+.text-about3 {
+  position: relative;
+  margin-top: 5%;
+  text-align: center;
+  font-size: xx-small;
+  margin-bottom: -7px;
+  border: 1px solid white;
+  width: 150px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Partie : Section milieu de page */
+section {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  width: 80%;
+  margin: auto;
+}
+
+.mid-page img{
+  float: left;
+  border-radius: 50%;
+  background: rgb(20, 134, 215);
+  width: 25px;
+  margin-right: 7px;
+  padding: 10px;
+}
+
+h3 {
+  font-weight: bold;
+  text-decoration: 1px underline grey;
+}
+
+.mid-page {
+  margin: 15px;
+  align-content: center;
+}
+
+.mid-page a {
+  text-decoration: none;
+  color: rgb(20, 134, 215);
+}
+
+/* Partie : Bas de page  */
+
+.down-page {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box-down-page {
+  text-align: left;
+  margin: 10px;
+}
+
+.box-down-page img {
+  margin-right: 15px;
+  margin-top: 15px;
+  background: rgb(20, 134, 215);
+}
+
+.date {
+  font-size: xx-small;
+}
+
+.follow {
+  font-size: small;
+}
+
+.box-down-page span {
+  color: rgb(20, 134, 215);
+  text-decoration: underline;
+}
+
+.down-page2 {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Partie : Footer  */
+footer {
+  background-color: #444;
+  text-align: center;
+  color: rgb(240, 240, 240);
+  padding: 10px 0px;
+}
+
+footer span {
+  color: rgb(20, 134, 215);
+  font-weight: bold;
+}

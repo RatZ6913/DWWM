@@ -1,0 +1,49 @@
+nav ul {
+  padding-left: 0;
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 880px) {
+  nav {
+    justify-content: space-evenly;
+  }
+  .searchbar {
+    display: none;
+  }
+  article img {
+    padding: 0;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  nav {
+    justify-content: space-around;
+  }
+  nav ul li {
+    margin: 5px;
+  }
+  nav a {
+    padding: 0;
+  }
+  article {
+    flex-wrap: wrap;
+  }
+  section img {
+    display: none;
+  }
+  .down-page div:nth-child(4) {
+    display: none;
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  h1 {
+    text-align: center;
+  }
+}
